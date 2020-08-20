@@ -52,16 +52,16 @@
                   </div>
                   
 
-                  <a href="#"  class="btn btn-primary btn-lg btn-block">Descargar reportes usuarios </a>
+                  <a href="#"  class="btn btn-primary btn-lg btn-block">Reportes usuarios </a>
                     <hr>
 
-                  <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Películas más Populares</a>
+                  <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Reporte de Películas más Populares</a>
                     <hr>
 
-                    <a href="reporte3.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Películas Próximo Estrenos</a>
+                    <a href="reporte3.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Reporte de Películas Próximo Estrenos</a>
                     <hr>
 
-                    <a href="reporte4.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Películas más Valoradas</a>
+                    <a href="reporte4.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Reporte de Películas más Valoradas</a>
                     <hr>
                   
                   <a href="index.php"  class="btn btn-danger btn-lg btn-block">Ir a la Página Principal </a>
