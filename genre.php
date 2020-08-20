@@ -51,7 +51,7 @@
 							<li><a href="../../year/2014/1">2014</a></li>
 						</ul>
 					</li>
-					<li><a href="admin.php">Reportes</a></li>
+					<li><a href="../../admin.php">Reportes</a></li>
 
 					
 					<li class="mobsearch">

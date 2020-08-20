@@ -59,7 +59,7 @@
 					
 					<li><a href="../popular/1">Mas Populares</a></li>
 
-					<li><a href="../cerrar.php">Cerrar sesion</a></li>
+					<li><a href="../admin.php">Reportes</a></li>
 
 					<li class="mobsearch">
 						<form class="mobform" action='search.php'>

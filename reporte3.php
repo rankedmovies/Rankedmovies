@@ -84,7 +84,7 @@ $i = 0;
 
 while($i<15) {
     $fpdf->Ln(12);
-    $fpdf->Cell(30, 6, $i, 1, 0, 'C');
+    $fpdf->Cell(30, 6, $i+1, 1, 0, 'C');
     $fpdf->Cell(70, 6,utf8_decode($movies[$i]['original_title']), 1, 0, 'J');
     $fpdf->Cell(20, 6,utf8_decode($movies[$i]['original_language']), 1, 0, 'C');
     $fpdf->Cell(25, 6,utf8_decode($movies[$i]['vote_average']), 1, 0, 'C');

@@ -65,6 +65,8 @@
 
 					<li><a href="popular/1">Mas Populares</a></li>
 
+					<li><a href="admin.php">Reportes</a></li>
+
 					
 				</ul>
 			</nav>

@@ -52,7 +52,7 @@
                   </div>
                   
 
-                  <a href="#"  target="_blank" class="btn btn-primary btn-lg btn-block">Descargar reportes usuarios </a>
+                  <a href="#"  class="btn btn-primary btn-lg btn-block">Descargar reportes usuarios </a>
                     <hr>
 
                   <a href="reporte2.php"  target="_blank" class="btn btn-secondary btn-lg btn-block">Descargar reporte de Películas más Populares</a>
