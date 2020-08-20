@@ -3,7 +3,7 @@
 		$_GET['page'] = 1;
 	}
 
-	$movies = @file_get_contents('https://api.themoviedb.org/3/search/movie?api_key=5b812339ff5a7fd950dc41d20c6754c8&language=es-ES&query='.$_GET['query'].'&page='.$_GET['page']);
+	$movies = @file_get_contents('https://api.themoviedb.org/3/search/movie?api_key=da25399c7ab7bcee46c4a0bfda74d227&language=es-ES&query='.$_GET['query'].'&page='.$_GET['page']);
 
 	if(empty($movies)){
 		$movies = '';

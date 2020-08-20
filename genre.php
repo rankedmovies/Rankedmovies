@@ -1,6 +1,6 @@
 <?php
 
-	$movies = file_get_contents('https://api.themoviedb.org/3/discover/movie?api_key=5b812339ff5a7fd950dc41d20c6754c8&language=es-ES&sort_by=primary_release_date.desc&with_genres='.$_GET['genre'].'&page='.$_GET['page']);
+	$movies = file_get_contents('https://api.themoviedb.org/3/discover/movie?api_key=da25399c7ab7bcee46c4a0bfda74d227&language=es-ES&sort_by=primary_release_date.desc&with_genres='.$_GET['genre'].'&page='.$_GET['page']);
 	$movies = json_decode($movies, true)['results'];
 
 
@@ -21,12 +21,7 @@
 	<script src="../../js/script.js"></script>
 
 
-	<!-- Demo styles -->
-	<style>
 
-
-
-	</style>
 </head>
 <body>
 	<div class="wrapper">

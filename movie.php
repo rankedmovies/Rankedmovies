@@ -1,10 +1,10 @@
 <!-- <pre> -->
 <?php
 	
-	$movie = file_get_contents('https://api.themoviedb.org/3/movie/'.$_GET['id'].'?api_key=5b812339ff5a7fd950dc41d20c6754c8&language=es-ES&append_to_response=videos');
+	$movie = file_get_contents('https://api.themoviedb.org/3/movie/'.$_GET['id'].'?api_key=da25399c7ab7bcee46c4a0bfda74d227&language=es-ES&append_to_response=videos');
 	$movie = json_decode($movie,true);
 
-	$reco = file_get_contents('https://api.themoviedb.org/3/movie/'.$_GET['id'].'/recommendations?api_key=5b812339ff5a7fd950dc41d20c6754c8&language=es-ES&page=1');
+	$reco = file_get_contents('https://api.themoviedb.org/3/movie/'.$_GET['id'].'/recommendations?api_key=da25399c7ab7bcee46c4a0bfda74d227&language=es-ES&page=1');
 	$reco = json_decode($reco,true)['results'];
 	
 	
