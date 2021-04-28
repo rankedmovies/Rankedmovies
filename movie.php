@@ -26,7 +26,7 @@
 		
 	}else{
 		$trailer = false;
-		$video = 'http://vidsrc.me/embed/'.$movie['imdb_id'].'/';
+		$video = 'https://vidsrc.me/embed/'.$movie['imdb_id'].'/';
 	}
 	
 	//print_r($movie);
@@ -158,8 +158,8 @@
 						<li><a class="btn" href="#link2">Link2</a></li>
 						<script type="text/javascript">
 							$(document).ready(function(){;
-								$('#link1').attr('src','http://vidsrc.me/embed/<?=$movie['imdb_id']?>/');
-								$('#link2').attr('src','http://vidsrc.me/embed/<?=$movie['imdb_id']?>/');
+								$('#link1').attr('src','https://vidsrc.me/embed/<?=$movie['imdb_id']?>/');
+								$('#link2').attr('src','https://vidsrc.me/embed/<?=$movie['imdb_id']?>/');
 							});
 							var func = function(){
 								if(window.location.hash =='#link1'|| (window.location.hash == '' && <?=(!empty($movie['video']))?'true':'false'?>)){
